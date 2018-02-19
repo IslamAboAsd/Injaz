@@ -5,7 +5,6 @@
 	line-height: 0;
 	min-height: 40px;
 	border-radius: 6px;
-	z-index: -1;
 	max-width: 100%!important;
 
 }
@@ -134,6 +133,7 @@
 	opacity:.5;
 	transition:.2s ease-out;
 	font-family: sans-serif;
+	z-index: 999999999999999999999999999999
 }
 
 .smoothslides-on  a.ss-next {

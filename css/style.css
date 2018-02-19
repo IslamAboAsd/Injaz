@@ -60,6 +60,7 @@
     width: 250px;
     border: 1px solid #bfaa81;
     transition: all ease-in-out .5s;
+    z-index: 999999
   }
   
   .logo {
