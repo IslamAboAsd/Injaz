@@ -29,12 +29,7 @@
   .nav-pills > li > a:hover, .nav-pills > li > a:hover, .nav > li > a:focus, .nav > li > a:hover {
     background-color: #443922 !important;
   }
-  
-  .add-width-nav {
-    left: 0 !important;
-    width: 100%;
-    left: 0;
-  }
+ 
   
 
   
@@ -62,9 +57,7 @@
     position: fixed;
     top: 30px;
     left: 109px;
-    bottom: 150px;
     width: 250px;
-    height: 78%;
     border: 1px solid #bfaa81;
     transition: all ease-in-out .5s;
   }
