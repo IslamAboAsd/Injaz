@@ -160,6 +160,8 @@
 .ss-paginate {
 	display: inline-block;
 	line-height: 0;
+	top: -55px;
+	position: absolute
 }
 /* Pagination dots */
 .ss-paginate a:link, .ss-paginate a:visited {
