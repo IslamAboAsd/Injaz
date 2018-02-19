@@ -1,0 +1,74 @@
+* {
+    font-family: 'Harmattan', sans-serif;
+    font-size: 20px;
+    transition: all ease-in-out .5s;
+  }
+  
+  body {
+    background-color: #1c1c15;
+    overflow-x: hidden;
+  }
+  
+  button:focus {
+    outline: none !important;
+  }
+  
+
+  .nav-pills > li > a {
+    color: #a68054;
+    font-weight: bold;
+    border: 1px solid #a68054;
+    text-align: center;
+    border-radius: 0
+  }
+  
+  .nav > li > a > img {
+    max-width: 100%;
+  }
+  
+  .nav-pills > li > a:hover, .nav-pills > li > a:hover, .nav > li > a:focus, .nav > li > a:hover {
+    background-color: #443922 !important;
+  }
+  
+  .add-width-nav {
+    left: 0 !important;
+    width: 100%;
+    left: 0;
+  }
+  
+
+  
+  .myNav .dropdown-menu > li > a:focus, .myNav .dropdown-menu > li > a:hover {
+    background-color: #443922;
+    color: #bfaa81;
+  }
+  
+  .myNav .cus .fa:hover {
+    color: rgba(160, 155, 80, 0.486);
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+  
+  .btn {
+    border: 2px solid #BEA780;
+    background-color: transparent;
+  }
+
+  
+  .fix {
+    background-image: url(../images/bg-nav.png);
+    background-size: cover;
+    color: #bfaa81;
+    position: fixed;
+    top: 30px;
+    left: 109px;
+    bottom: 150px;
+    width: 250px;
+    height: 78%;
+    border: 1px solid #bfaa81;
+    transition: all ease-in-out .5s;
+  }
+  
+  .logo {
+  }
+  
