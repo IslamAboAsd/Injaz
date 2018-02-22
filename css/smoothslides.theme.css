@@ -1,6 +1,7 @@
 /* Outer Container */
 .smoothslides, .smoothslides-on {
 	position:relative;
+	top: -60px;
 	font-size:0;
 	line-height: 0;
 	min-height: 40px;
