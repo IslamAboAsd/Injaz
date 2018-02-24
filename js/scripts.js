@@ -52,5 +52,7 @@ $("a").on('click', function(event) {
     });
    
 }());
-
+$('.navbar-toggle').click(function(){
+    $(".fix").removeClass('nonee').toggleClass('hidden');
+});
 });
