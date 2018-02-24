@@ -19,6 +19,25 @@
         <script src="js/html5shiv.min.js"></script>
         <script src="js/respond.min.js"></script>
         <![endif]-->
+        <script type="text/javascript">
+            /* wait for images to load */
+            $(window).load( function() {
+    
+                $('#myslideshow1').smoothSlides({
+                    effectDuration: 3500
+                });
+                $('#myslideshow2').smoothSlides({
+                    effectDuration: 3500,
+                    effectModifier: 1.4,
+                    navigation:'false',
+                    pagination:'true'
+                });
+    
+            });
+          
+       
+        </script>
+    
        
 </head>
 <body>
